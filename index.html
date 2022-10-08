@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- THOMPSON Meta Tags -->
+    <meta name="description"
+        content="Landing page template built with HTML and Bootstrap 4 for presenting training courses, classes, workshops and for convincing visitors to register using the form.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="" /> <!-- website link -->
+    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>THOMPSON-дорога в будущее</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/logo.svg">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+
+    </div>
+    <!-- end of preloader -->
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top" style="    background-color: rgb(179, 11, 30);
+    height: 75px;">
+
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Corso</a> -->
+
+        <!-- Image Logo -->
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+
+            <ul class="navbar-nav ml-auto" style="color:rgb(145, 4, 20) ;">
+                <li class="nav-item">
+                    <img style="width: 79px; position:absolute; left:0px; top:0px;" src="./images/favicon.png" alt="">
+                    <a class="nav-link page-scroll navbar-brand" style="position:absolute; left: 70px; color: white;"
+                        href="./index.html">Thompson school<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#register">Зарегестрироватся <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#description">Детали</a>
+                </li>
+
+                <!-- Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#date" id="navbarDropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">Инфо</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a style="color:rgb(145, 4, 20) ;" class="dropdown-item" href="article-details.html"><span
+                                class="item-text">Статьи</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a style="color:rgb(145, 4, 20) ;" class="dropdown-item" href="terms-conditions.html"><span
+                                class="item-text">Условия</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a style="color:rgb(145, 4, 20) ;" class="dropdown-item" href="privacy-policy.html"><span
+                                class="item-text">Конфеденциальность</span></a>
+                    </div>
+                </li>
+                <!-- end of dropdown menu -->
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Контакты</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="https://www.instagram.com/thompson_maktablari/">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i style="color:rgb(145, 4, 20);" class="fab fa-instagram fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://www.youtube.com/c/THOMPSONSCHOOL">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i style="color:rgb(145, 4, 20);" class="fab fa-youtube fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+        <li class="nav-item nav-link page-scroll" >
+            <a class="liink" href="../web.en.0.0.1/index.html">EN</a>
+        </li>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <div class="countdown">
+                            <span id="clock"></span>
+                        </div>
+                        <h1> Частная школа Thompson School</h1>
+                        <p class="p-large" style="color: rgb(255, 255, 255);">Вы чувствуете, что ваш мозг перегревается,
+                            когда дело доходит до образования ваших детей? Просто загляните в частную школу
+                            THOMPSON, чтобы принять решение.</p>
+                        <a class="btn-solid-lg page-scroll" href="#register">зарегистрироваться</a>
+                        <a class="btn-outline-lg page-scroll" href="#instructor">заглянуть</a>
+                        
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+
+        <!-- Image Slider -->
+        <div class="outer-container">
+            <div class="slider-container">
+                <div class="swiper-container image-slider-1" style="height:550px ;">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-1.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-2.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-3.jpg" alt="alternative">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-4.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-5.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-6.jpg" alt="alternative">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-7.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-8.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-9.jpg" alt="alternative">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-10.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-11.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                    </div> <!-- end of swiper-wrapper -->
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+
+                </div> <!-- end of swiper-container -->
+            </div> <!-- end of slider-container -->
+        </div> <!-- end of outer-container -->
+        <!-- end of image slider -->
+
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Registration -->
+    <div style="background-color: white;" id="register" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 style="color: rgb(145, 4, 20);">Также мы имеем курсы</h2>
+                        <p style="color: rgb(145, 4, 20);">Вы можете легко зарегистрироваться, заполнив форму. Студенты могут задавать вопросы в электронном чате.</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media" style="color: rgb(145, 4, 20);">
+                                <i style="color: rgb(145, 4, 20);"  class="fas fa-square"></i>
+                                <div class="media-body"><strong style="color: rgb(145, 4, 20);">Ваши данные </strong
+                                        style="color: rgb(145, 4, 20);"> необходимы для завершения регистрации</div>
+                            </li>
+                            <li class="media" style="color: rgb(145, 4, 20);">
+                                <i style="color: rgb(145, 4, 20);"  class="fas fa-square"></i>
+                                <div class="media-body"><strong style="color: rgb(145, 4, 20);">С нами безопасно:</strong style="color: rgb(145, 4, 20);"> информация не будет использоваться для маркетинга</div>
+                            </li>
+                            <li class="media" style="color: rgb(145, 4, 20);">
+                                <i style="color: rgb(145, 4, 20);" class="fas fa-square"></i>
+                                <div class="media-body"><strong>Вы получите </strong> электронное письмо с подтверждением менее, чем через 24 часа.</div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+
+                    <!-- Registration Form -->
+                    <div class="form-container">
+                        <form id="registrationForm" data-toggle="validator" data-focus="false">
+                            <div class="form-group" style="color: rgb(145, 4, 20);">
+                                <input type="text" class="form-control-input" id="rname" name="rname" required>
+                                <label class="label-control" for="rname">Полное имя</label>
+                                <div style="color:white ;" class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group" style="color: rgb(145, 4, 20);">
+                                <input type="email" class="form-control-input" id="remail" name="remail" required>
+                                <label class="label-control" for="remail">E-mail</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group" style="color: rgb(145, 4, 20);">
+                                <input type="text" class="form-control-input" id="rphone" name="rphone" required>
+                                <label class="label-control" for="rphone">Номер телефона</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group checkbox" style="color: rgb(145, 4, 20);">
+                                <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>
+                                Я ознакомлен и согласен с письменной <a href="" style="color:rgb(145, 4, 20);">политикой конфиденциальности</a> и
+                                <a href="" style="color:rgb(145, 4, 20);">условиями использования</a>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn-solid-lg page-scroll"> ЗАРЕГИСТРИРОВАТЬСЯ</button>
+                            </div>
+                            <div class="form-message">
+                                <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+                            
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of registration form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of registration -->
+
+
+    <!-- Partners -->
+    <div class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">В сообществе</p>
+
+                    <!-- Image Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="images/customer-logo-1.png" alt="alternative">
+                                </div>
+                            </div> <!-- end of swiper-wrapper -->
+                        </div> <!-- end of swiper container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of image slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-1 -->
+    <!-- end of partners -->
+
+
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/instructor.jpg" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 style="color: rgb(145, 4, 20);">Я, Шахзод Баходиров, основатель</h2>
+                        <p style="color: rgb(184, 8, 29);" >Привет всем! Я Шахзод - основатель школы Тhompson. Несколько лет я обучаю английскому языку используя новые интерактивные методы. Я считаю, что обучать детей - это великое дело, направленное во благо общества. </p>
+                        <p style="color: rgb(184, 8, 29);">...Обучать студентов лучшими методам Tомпсона — это то, чем я люблю заниматься, используя все свои возможности...</p>
+                        <p style="color: rgb(184, 8, 29);">...Знания - это величайший инструмент во власти человачества...</p>
+                        <p style="color: rgb(184, 8, 29);">...Знания - это богатство, которое последует за человеком куда угодно...</p>  
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+
+
+    <!-- Description -->
+    <div id="description" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 style="color: rgb(145, 4, 20);">Разница между общеобразовательными школами и школой Тhompson</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg first">
+                        <li class="media">
+                            <i class="bullet" style="color: white;">1</i>
+                            <div class="media-body">
+                                <h4 style="color: rgb(145, 4, 20);">Результат IELTS 7+</h4>
+                                <p style="color:rgb(179, 11, 30);">Наша школа специализируется на изучении английского языка.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet" style="color: white;">2</i>
+                            <div class="media-body">
+                                <h4 style="color: rgb(145, 4, 20);">IT специализация</h4>
+                                <p style="color:rgb(179, 11, 30);"> В школа Тhompson большое внимание уделяется информационным технологиям. </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet" style="color: white;">3</i>
+                            <div class="media-body">
+                                <h4 style="color: rgb(145, 4, 20);">Русскоязычная</h4>
+                                <p style="color:rgb(179, 11, 30);"> Все наши уроки проводятся на русском языке.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg second">
+                        <li class="media">
+                            <i class="bullet" style="color: white;">4</i>
+                            <div class="media-body">
+                                <h4 style="color: rgb(145, 4, 20);">Весь день в школе</h4>
+                                <p style="color:rgb(179, 11, 30);">Наши ученики находятся на территории школы с 8:00 до 17:00.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet" style="color: white;">5</i>
+                            <div class="media-body">
+                                <h4 style="color: rgb(145, 4, 20);">Школьное питание</h4>
+                                <p style="color:rgb(179, 11, 30);">Обед и полдник включены в школьный режим дня.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet" style="color: white;">6</i>
+                            <div class="media-body">
+                                <h4 style="color: rgb(145, 4, 20);">Больше знаний</h4>
+                                <p style="color:rgb(179, 11, 30);">Наши ученики имеют возможность углублять свои знания на дополнительных факультативных занятиях.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of description -->
+
+
+    <!-- Students -->
+    <div class="basic-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2 style="color: rgb(145, 4, 20);">Обучающие курсы английского языка в школе Тhompson</h2>
+                        <p  style="color: rgb(184, 8, 29);">Наши уроки для всех, кто заботится о своем будущем или будущем своих детей. Пожалуйста, приходите и познакомьтесь с нами.</p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox">о нас</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/students.jpg" alt="alternative">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-3 -->
+    <!-- end of students -->
+
+
+    <!-- Details Lightbox -->
+    <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">x</button>
+                <div class="col-lg-8">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-lightbox.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <h3  style="color: rgb(145, 4, 20);">Частная школа Тhompson</h3>
+                    <hr style="width:100% ; background-color:rgb(145, 4, 20);">
+                    <h5 style="color: rgb(145, 4, 20);">Для всех!</h5>
+                    <p style="color: rgb(145, 4, 20);">Мы надеемся, что навыки, которые Вы приобретете вместе с нами, пригодятся Вам в будущем.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i style="color: rgb(145, 4, 20);" class="fas fa-square"></i>
+                            <div class="media-body" style="color: rgb(184, 8, 29);">Работа в команде</div>
+                        </li>
+                        <li class="media">
+                            <i style="color: rgb(145, 4, 20);" class="fas fa-square"></i>
+                            <div class="media-body" style="color: rgb(184, 8, 29);">Уважение к окружающим</div>
+                        </li>
+                        <li class="media">
+                            <i style="color: rgb(145, 4, 20);" class="fas fa-square"></i>
+                            <div class="media-body" style="color: rgb(184, 8, 29);">Сотрудничество</div>
+                        </li>
+                        <li class="media">
+                            <i style="color: rgb(145, 4, 20);" class="fas fa-square"></i>
+                            <div class="media-body" style="color: rgb(184, 8, 29);">Совершенный английский</div>
+                        </li>
+                        <li class="media">
+                            <i style="color: rgb(145, 4, 20);" class="fas fa-square"></i>
+                            <div class="media-body" style="color: rgb(184, 8, 29);">Стильный образ жизни</div>
+                        </li>
+                        <li class="media">
+                            <i style="color: rgb(145, 4, 20);" class="fas fa-square"></i>
+                            <div class="media-body" style="color: rgb(184, 8, 29);">Создание собственных сайтов</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#register">зарегистрироваться</a> <a
+                        class="btn-outline-reg mfp-close as-button" href="#screenshots" >назад</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox -->
+
+
+    <!-- Video -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 style="color: rgb(145, 4, 20);" >Немножко истории</h2>
+
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=bztpuC8nTvY"
+                                data-effect="fadeIn">
+                                <img class="img-fluid" src="images/video.jpg" alt="alternative"
+                                    style="width: 100%; height: 100%">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div> <!-- end of image-container -->
+                    <!-- end of video preview -->
+
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of video -->
+
+
+    <!-- Takeaways -->
+    <div class="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 style="color: rgb(145, 4, 20)">Ключевые выводы</h2>
+                    <p class="p-heading" style="color: rgb(184, 8, 29)">Основные темы, которые затрагиваются на уроках, охватывают все основы IT и некоторые передовые методы, которые помогут Вам на этом пути.
+                    </p>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(145, 4, 20)">Анализ позиций</h4>
+                            <p style="color: rgb(145, 4, 20)">Поймите, где ваш сайт позиционируется в настоящее время в запросах поисковых систем.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(145, 4, 20)">Планирование  литературы</h4>
+                            <p style="color: rgb(145, 4, 20)">Найдите наиболее релевантные ключевые слова, которые будут соответствовать вашему веб-сайту.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(145, 4, 20)">Корректировка статей</h4>
+                            <p style="color: rgb(145, 4, 20)">Узнайте, как планировать контент-стратегию вашего веб-сайта и писать соответствовующие статьи.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(145, 4, 20)">Контроль обратных ссылок</h4>
+                            <p style="color: rgb(145, 4, 20)">Обратные ссылки жизненно важны, и мы научим вас всему, что нужно знать.  И не только этому.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="far fa-handshake"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(145, 4, 20)">Развивайте партнерские отношения</h4>
+                            <p style="color: rgb(145, 4, 20)">Партнерские отношения помогут Вам сделать Ваш веб-сайт или блог авторитетным в Вашей области.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title" style="color: rgb(145, 4, 20)">Оценивайте свои действия</h4>
+                            <p style="color: rgb(145, 4, 20)">Узнайте, как использовать правильные инструменты аналитики, чтобы оценить свои действия и улучшить их.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards -->
+    <!-- end of takeaways -->
+
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 style="color:rgb(94, 7, 17);">Наши сотрудники, которые делают Thompson лучше, чем когда-либо</h3>
+
+                    <!-- Text Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container text-slider">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/testimonial-1.jpg" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper" style="color:rgb(145, 4, 20);">
+                                        <div class="testimonial-text">Я очень рада видеть здесь такие возможности, ваши дети должны быть очень счастливы, изучая здесь новые навыки.
+                                        </div>
+                                        <div class="testimonial-author" style="color:rgb(94, 7, 17);">Надежда Анатольевна - учитель химии</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/testimonial-2.jpg" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper" style="color:rgb(145, 4, 20);">
+                                        <div class="testimonial-text">Школа Томпсона известна не только хорошими условиями обучения, но и новейшими интерактивными методиками обучения.
+                                        </div>
+                                        <div class="testimonial-author" style="color:rgb(94, 7, 17);">Наталья Хамраевна - учитель математики</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/testimonial-3.jpg" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper" style="color:rgb(145, 4, 20);">
+                                        <div class="testimonial-text">Входя в нашу школу, каждый должен думать о своем дне. Каждый должен спросить себя: «Что я буду делать?»
+                                        </div>
+                                        <div class="testimonial-author" style="color:rgb(94, 7, 17);">Шахзод Баходиров - основатель</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                
+
+                            </div> <!-- end of swiper-wrapper -->
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> <!-- end of swiper-container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of text slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of slider-2 -->
+    <!-- end of testimonials -->
+    <div>
+        <h2 style="color: rgb(145, 4, 20); text-align: center;" >Немножко статистики</h2>
+    </div>
+    <div class="schedule">
+        
+    </div>
+
+
+   
+    <div class="scube">
+        <div class="top">
+        <div class="top1">
+            <div class="home">
+                 <h3 class="omg">380+</h3>
+            <p class="rty">УЧЕНИКОВ В НАШЕЙ ШКОЛЕ</p>
+            </div>
+           
+        </div>
+        <div class="top2">
+            <div class="home">
+                <h3 class="omg">3000+</h3>
+           <p class="rty">детей обучаем по всему Узбекистану</p>
+           </div>
+        </div>
+        <div class="top3">
+            <div class="home">
+                <h3 class="omg">9000+</h3>
+           <p class="rty">студентов сдали ielts</p>
+           </div>
+        </div>
+        <div class="top4">
+            <div class="home">
+                <h3 class="omg">300+</h3>
+           <p class="rty">сотрудников обеспечены Работой</p>
+           </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom1">
+            <div class="home">
+                <h3 class="omg">11</h3>
+                <p class="rty">учебных центров</p>
+           </div>
+       </div>
+        </div>
+        <div class="bottom2">
+            <div class="home">
+                <h3 class="omg">1</h3>
+           <p class="rty">частная школа</p>
+           </div>
+
+        </div>
+        <div class="bottom3">            
+            <div class="home">
+                <h3 class="omg">2018</h3>
+           <p class="rty">первый филиал thompson school в ташкенте</p>
+           </div>
+        </div>
+        <div class="bottom4">            
+            <div class="home">
+                <h3 class="omg">1</h3>
+           <p class="rty">детский сад</p>
+           </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Newsletter -->
+    <div class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 style="color:rgb(184, 8, 29);">Будьте в курсе новостей, подписавшись на нашу рассылку и социальные каналы</h3>
+
+                    <!-- Newsletter Form -->
+                    <form id="newsletterForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="nemail" required>
+                            <label class="label-control " for="nemail" style="color:rgb(255, 255, 255);">E-mail</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox" style="color:rgb(184, 8, 29);">
+                            <input type="checkbox" id="nterms" value="Agreed-to-Terms" required>Я ознакомлен и согласен с письменной <a href="" style="color:rgb(145, 4, 20);">политикой конфиденциальности</a> и
+                            <a href="" style="color:rgb(145, 4, 20);">условиями использования</a>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button btn-solid-lg page-scroll"> ЗАРЕГИСТРИРОВАТЬСЯ</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="nmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of newsletter form -->
+
+                    <!-- Social Links -->
+                    <div class="icon-container">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of icon-container -->
+                    <!-- end of social icons -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-2 -->
+    <!-- end of newsletter -->
+
+
+    <!-- Contact -->
+    <div id="contact" class="form-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h3 style="color: white;">Наше расположение</h3>
+                        <ul style="color: white;" class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i style="color: white;" class="fas fa-map-marker-alt"></i> 
+                                <div class="media-body" style="color: white;">Узбекистан, Навоийская область, город Навои, улица Лев Толстого 14А</div>
+                            </li>
+                            <li class="media">
+                                <i style="color: white;" class="fas fa-mobile-alt"></i>
+                                <div class="media-body" style="color: white;">71 200 71 78, &nbsp;&nbsp;<i
+                                        style="color: white;" class="fas fa-mobile-alt"></i>&nbsp; 71 200 71 79</div>
+                            </li>
+                            <li class="media">
+                                <i style="color: white;" class="fas fa-globe"></i>
+                                <div class="media-body" style="color: white;">t.me/thompson_maktablari</div>
+                            </li>
+                            <li class="media">
+                                <i style="color: white;" class="fas fa-globe"></i>
+                                <div class="media-body" style="color: white;">tapy.me/thompson_maktablari</div>
+                            </li>
+                            
+                               
+                            
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div>
+                <div class="col-lg-6">
+                    <iframe style="height: 300px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.587368686145!2d65.38053407223421!3d40.093165295060615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f51c1841edd58c7%3A0xd1af3238b9d5fbf1!2sThompson%20School%20Navoi!5e0!3m2!1sru!2s!4v1664178648694!5m2!1sru!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-3 -->
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer" style="color:rgb(179, 11, 30);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-col first">
+                        <h5 style="color:rgb(179, 11, 30);">О Тhompson</h5>
+                        <p class="p-small" style="color:rgb(179, 11, 30);">Мы стремимся подготовить ваших детей к лучшему будущему с лучшими учителями.</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-3">
+                    <div class="footer-col second">
+                        <h5 style="color:rgb(179, 11, 30);">Линки</h5>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="https://www.instagram.com/thompson_maktablari/"
+                                        style="color:rgb(179, 11, 30);">Instagram</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="https://tapy.me/thompson_maktablari"
+                                        style="color:rgb(179, 11, 30);">tapy.me</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="https://t.me/thompson_maktablari"
+                                        style="color:rgb(179, 11, 30);">telegram</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-3">
+                    <div class="footer-col third">
+                        <h5 style="color:rgb(179, 11, 30);">Линки</h5>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="article-details.html"
+                                        style="color:rgb(179, 11, 30);">Детали статьи</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="terms-conditions.html"
+                                        style="color:rgb(179, 11, 30);">Условия</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body"><a href="privacy-policy.html"
+                                        style="color:rgb(179, 11, 30);">Конфиденциальность</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="col-md-3">
+                    <div class="footer-col fourth">
+                        <h5 style="color:rgb(179, 11, 30);">Социальные медиа</h5>
+                        <p class="p-small" style="color:rgb(179, 11, 30);">Чтобы быть в курсе новостей и обновлений, следите за нами</p>
+                        <a href="https://www.facebook.com/thompsonuz/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/thompson_maktablari/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/c/THOMPSONSCHOOL">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div>
+        <div style="text-align: center;;color: rgb(175, 41, 41);margin-top: 0px;width: 100%;height: 20px; margin-bottom: 0;">
+            <p>website was made by "L"</p>
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+
+</html>
